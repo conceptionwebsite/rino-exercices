@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homes for sale in Quimper · Larkline Estates</title>
+  <meta name="description" content="Houses, apartments and lofts for sale in Quimper, each with one agent you can call directly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+<div class="page-wrap">
+
+<header class="site-header-solid bg-light-1 boxed-l pad-tb-16 flex-row flex-align-center flex-justify-between gap-24">
+  <a class="logo-link" href="index.html" aria-label="Larkline Estates, home">
+    <img class="site-logo" src="images/larkline-logo.png" alt="Larkline Estates Quimper" width="890" height="180">
+  </a>
+  <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open the menu">
+  <label class="nav-burger heading-on-light" for="nav-toggle" aria-hidden="true"><span class="nav-burger-lines"></span></label>
+  <nav class="nav-panel" aria-label="Main">
+    <ul class="nav-links">
+      <li><a class="nav-link heading-on-light" href="homes.html" aria-current="page">Homes for sale</a></li>
+      <li><a class="nav-link heading-on-light" href="index.html#selling">Selling</a></li>
+      <li><a class="nav-link heading-on-light" href="index.html#neighborhoods">Neighborhoods</a></li>
+      <li><a class="nav-link heading-on-light" href="index.html#team">Team</a></li>
+      <li><a class="nav-link heading-on-light" href="journal.html">Journal</a></li>
+    </ul>
+    <a class="btn-solid" href="index.html#valuation">Free valuation</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ Title ============ -->
+<section class="bg-light-1 boxed-l pad-tb-64 flex-column gap-24" aria-labelledby="page-title">
+  <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb flex-row flex-wrap gap-8 body-s detail-on-light">
+      <li><a class="plain-link detail-on-light" href="index.html">Home</a></li>
+      <li aria-current="page">Homes for sale</li>
+    </ol>
+  </nav>
+  <div class="split-title flex-align-end gap-40 reveal-up">
+    <div class="flex-column gap-20">
+      <p class="sub-title subtitle-on-light">8 for sale &middot; 2 under contract</p>
+      <h1 id="page-title" class="title-2 heading-on-light">Homes for sale in Quimper</h1>
+    </div>
+    <p class="body-l body-on-light measure">Found one you like? Call or WhatsApp its agent straight from the listing. No forms, no call centre.</p>
+  </div>
+</section>
+
+<!-- ============ Filters + results ============ -->
+<section class="bg-light-1 boxed-l pad-tb-0 flex-column gap-32" aria-label="Homes">
+  <div class="filter-bar pad-tb-20 flex-row flex-wrap flex-align-center flex-justify-between gap-16" role="group" aria-label="Filter homes">
+    <div class="flex-row flex-wrap gap-8" role="group" aria-label="Type of home">
+          <button class="filter-btn" type="button" data-filter-all aria-pressed="true">All <span class="filter-count">10</span></button>
+          <button class="filter-btn" type="button" data-filter-value="House" aria-pressed="false">Houses <span class="filter-count">2</span></button>
+          <button class="filter-btn" type="button" data-filter-value="Townhouse" aria-pressed="false">Townhouses <span class="filter-count">1</span></button>
+          <button class="filter-btn" type="button" data-filter-value="Apartment" aria-pressed="false">Apartments <span class="filter-count">5</span></button>
+          <button class="filter-btn" type="button" data-filter-value="Loft" aria-pressed="false">Lofts <span class="filter-count">2</span></button>
+    </div>
+    <div class="flex-row flex-wrap flex-align-center gap-12">
+      <div class="filter-select">
+      <label class="hidden" for="filter-hood">Neighborhood</label>
+      <select class="input" id="filter-hood">
+        <option value="">All neighborhoods</option>
+            <option value="Centre historique">Centre historique</option>
+            <option value="Locmaria">Locmaria</option>
+            <option value="Quais de l&rsquo;Odet">Quais de l&rsquo;Odet</option>
+            <option value="Kerfeunteun">Kerfeunteun</option>
+            <option value="Providence-Saint-Mathieu">Providence-Saint-Mathieu</option>
+            <option value="Ergu&eacute;-Armel">Ergu&eacute;-Armel</option>
+            <option value="Quartier de la Gare">Quartier de la Gare</option>
+            <option value="Creac&rsquo;h Gwen">Creac&rsquo;h Gwen</option>
+            <option value="Penhars">Penhars</option>
+            <option value="Le Moulin Vert">Le Moulin Vert</option>
+            <option value="Le Corniguel">Le Corniguel</option>
+            <option value="Coteau du Frugy">Coteau du Frugy</option>
+      </select>
+      </div>
+      <div class="filter-select">
+      <label class="hidden" for="filter-sort">Sort by</label>
+      <select class="input" id="filter-sort">
+        <option value="new">Newest first</option>
+        <option value="low">Price, low to high</option>
+        <option value="high">Price, high to low</option>
+      </select>
+      </div>
+    </div>
+  </div>
+  <p class="body-s detail-on-light flex-row flex-wrap flex-align-center gap-12">
+    <span id="result-count" role="status" aria-live="polite">Showing all 10 homes</span>
+    <button class="button-reset text-link link-on-light" type="button" data-clear-filters hidden>Clear filters</button>
+  </p>
+
+  <div class="archive-grid gap-24" data-listing>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Locmaria" data-type="Loft" data-price="565000" data-order="0">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Locmaria</span>
+        <img src="https://images.unsplash.com/photo-1662379940109-1026a0dcfe95?auto=format&fit=crop&w=800&q=70" alt="Loft with exposed beams, a library wall and a ladder" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Cobblestone Loft</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>3 beds</li><li>2 baths</li><li>195 m&sup2;</li></ul>
+        <p class="price">&euro;565,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1559687495-6ed41da2c140?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Daniel Reyes</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Quais de l&rsquo;Odet" data-type="Apartment" data-price="215000" data-order="2">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Quais de l&rsquo;Odet</span>
+        <img src="https://images.unsplash.com/photo-1713832139677-a03a41b602e3?auto=format&fit=crop&w=800&q=70" alt="Living room with a grey sofa and a tall window" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Quayside Apartment</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>1 bed</li><li>1 bath</li><li>72 m&sup2;</li></ul>
+        <p class="price">&euro;215,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1559687495-6ed41da2c140?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Daniel Reyes</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Kerfeunteun" data-type="House" data-price="425000" data-order="3">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Kerfeunteun</span>
+        <img src="https://images.unsplash.com/photo-1627847643419-47612038d2b7?auto=format&fit=crop&w=800&q=70" alt="Granite house with blue shutters and flowering climbers" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Granite Classic</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>3 beds</li><li>2 baths</li><li>172 m&sup2;</li></ul>
+        <p class="price">&euro;425,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1631377307475-9acfa929b062?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Priya Nair</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Providence-Saint-Mathieu" data-type="Apartment" data-price="365000" data-order="4">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Providence-Saint-Mathieu</span>
+        <img src="https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=800&q=70" alt="Dining room with a long wooden table" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Park View Residence</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>2 baths</li><li>130 m&sup2;</li></ul>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="price">&euro;365,000</span><span class="badge-1">Under contract</span></p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1631377307475-9acfa929b062?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Priya Nair</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Quartier de la Gare" data-type="Apartment" data-price="279000" data-order="6">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Quartier de la Gare</span>
+        <img src="https://images.unsplash.com/photo-1713832139688-79676097edde?auto=format&fit=crop&w=800&q=70" alt="Bright living room with tall windows" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Station Quarter Residence</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>2 baths</li><li>116 m&sup2;</li></ul>
+        <p class="price">&euro;279,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Marcus Bell</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Creac&rsquo;h Gwen" data-type="Apartment" data-price="259000" data-order="7">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Creac&rsquo;h Gwen</span>
+        <img src="https://images.unsplash.com/photo-1612301988752-5a5b19021f45?auto=format&fit=crop&w=800&q=70" alt="New-build bedroom with wide windows" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Creac&rsquo;h Gwen New-Build</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>1 bed</li><li>1 bath</li><li>79 m&sup2;</li></ul>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="price">&euro;259,000</span><span class="badge-1">Under contract</span></p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Marcus Bell</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Penhars" data-type="House" data-price="595000" data-order="8">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Penhars</span>
+        <img src="https://images.unsplash.com/photo-1542321204-23959c19158b?auto=format&fit=crop&w=800&q=70" alt="Large granite house with a slate roof and a lawn" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Penhars Granite House</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>5 beds</li><li>3 baths</li><li>334 m&sup2;</li></ul>
+        <p class="price">&euro;595,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Marcus Bell</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Le Moulin Vert" data-type="Townhouse" data-price="895000" data-order="9">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Le Moulin Vert</span>
+        <img src="https://images.unsplash.com/photo-1567590997573-a0cfe69ee335?auto=format&fit=crop&w=800&q=70" alt="Stone townhouse with a slate roof behind a green garden" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Moulin Vert Townhouse</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>4 beds</li><li>4 baths</li><li>297 m&sup2;</li></ul>
+        <p class="price">&euro;895,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Sofia Lindqvist</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Le Corniguel" data-type="Loft" data-price="385000" data-order="10">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Le Corniguel</span>
+        <img src="https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?auto=format&fit=crop&w=800&q=70" alt="Open-plan loft with wooden floors and steel beams" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Old Port Loft</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>2 baths</li><li>144 m&sup2;</li></ul>
+        <p class="price">&euro;385,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Sofia Lindqvist</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html" data-hood="Coteau du Frugy" data-type="Apartment" data-price="159000" data-order="11">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Coteau du Frugy</span>
+        <img src="https://images.unsplash.com/photo-1720096004902-9954af4e2fae?auto=format&fit=crop&w=800&q=70" alt="Small living room open to the kitchen" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Frugy Hillside Apartment</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>1 bed</li><li>1 bath</li><li>65 m&sup2;</li></ul>
+        <p class="price">&euro;159,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Sofia Lindqvist</p>
+      </div>
+    </a>
+  </div>
+
+  <div id="empty-state" class="card pad-40 flex-column flex-align-start gap-16" hidden>
+    <h2 class="title-5 heading-on-light">No home matches these filters right now</h2>
+    <p class="body-m body-on-light measure">New homes often sell before they reach the website. Call the office and tell us what you are looking for; the agent for that part of town will keep you in mind.</p>
+    <div class="flex-row flex-wrap gap-12">
+      <button class="btn-outline" type="button" data-clear-filters>Show all homes</button>
+      <a class="btn-solid" href="tel:+33261910100">Call 02 61 91 01 00</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Recently sold (proof for sellers) ============ -->
+<section class="bg-light-1 boxed-l pad-tb-96 flex-column gap-40" aria-labelledby="sold-title">
+  <div class="divider"></div>
+  <div class="split-title flex-align-end gap-40">
+    <div class="flex-column gap-20">
+      <p class="sub-title subtitle-on-light">Recently sold</p>
+      <h2 id="sold-title" class="title-3 heading-on-light">Sold by the agent who knew the street</h2>
+    </div>
+    <p class="body-m body-on-light measure">Want to know what a home like yours would sell for? Ask the agent who knows your street. Sale prices are fictional, for the prototype.</p>
+  </div>
+  <div class="card-row-3 gap-24">
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-3">Sold</span>
+        <img src="https://images.unsplash.com/photo-1763497291936-5429219e4c2a?auto=format&fit=crop&w=800&q=70" alt="Half-timbered houses in a lane of old Quimper" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Timber-Frame Loft</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>2 baths</li><li>177 m&sup2;</li></ul>
+        <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;515,000</span></p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1559687495-6ed41da2c140?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Daniel Reyes</p>
+      </div>
+    </a>
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-3">Sold</span>
+        <img src="https://images.unsplash.com/photo-1725034474154-b4108c93bd3b?auto=format&fit=crop&w=800&q=70" alt="Room with tall carved wooden doors" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Ergu&eacute;-Armel Apartment</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>1 bath</li><li>102 m&sup2;</li></ul>
+        <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;239,000</span></p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1631377307475-9acfa929b062?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+        <p class="body-s body-on-light">Priya Nair</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="photo-band bg-dark-1 boxed-m pad-tb-160 flex-column flex-align-center gap-24 text-center body-on-dark" aria-labelledby="cta-title">
+  <div class="band-media"><img src="https://images.unsplash.com/photo-1605001459743-b3d19191d7c3?auto=format&fit=crop&w=2000&q=70" alt="" loading="lazy"></div>
+  <p class="sub-title subtitle-on-dark">Selling instead?</p>
+  <h2 id="cta-title" class="title-2 heading-on-dark measure">Your home could be on this page next</h2>
+  <p class="body-l body-on-dark measure">Tell us about it and your local agent will call you within one working day.</p>
+  <a class="btn-solid" href="index.html#valuation">Plan a free valuation <span class="arrow" aria-hidden="true">&rarr;</span></a>
+</section>
+
+</main>
+
+</div>
+
+<footer class="curtain-footer bg-dark-1 boxed-l pad-tb-80 body-on-dark" data-curtain-footer>
+  <div class="curtain-inner flex-column gap-40">
+    <div class="footer-grid gap-40">
+      <div class="flex-column gap-20">
+        <img class="site-logo" src="images/larkline-logo-light.png" alt="Larkline Estates Quimper" width="890" height="180" loading="lazy">
+        <p class="body-s body-on-dark measure">A small, independent estate agency in Quimper. Sales only, one agent per client.</p>
+      </div>
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-dark">Office</p>
+        <p class="body-s body-on-dark">Rue Ren&eacute;-Madec<br>29000 Quimper, Finist&egrave;re<br>Monday to Friday, 9am to 6pm</p>
+      </div>
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-dark">Contact</p>
+        <ul class="footer-links flex-column gap-8 body-s">
+          <li><a class="plain-link heading-on-dark" href="tel:+33261910100">02 61 91 01 00</a></li>
+          <li><a class="plain-link heading-on-dark" href="mailto:hello@larkline.example">hello@larkline.example</a></li>
+        </ul>
+      </div>
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-dark">Explore</p>
+        <ul class="footer-links flex-column gap-8 body-s">
+          <li><a class="plain-link heading-on-dark" href="homes.html">Homes for sale</a></li>
+          <li><a class="plain-link heading-on-dark" href="index.html#valuation">Free valuation</a></li>
+          <li><a class="plain-link heading-on-dark" href="index.html#neighborhoods">Neighborhoods</a></li>
+          <li><a class="plain-link heading-on-dark" href="index.html#team">Team</a></li>
+          <li><a class="plain-link heading-on-dark" href="journal.html">Journal</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom pad-tb-24 flex-row flex-wrap flex-justify-between gap-16 body-s detail-on-dark">
+      <p>&copy; 2026 Larkline Estates &middot; Professional licence (carte T) no. to be added</p>
+      <p><a class="plain-link detail-on-dark" href="legal-notice.html">Legal notice</a> &middot; <a class="plain-link detail-on-dark" href="privacy.html">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

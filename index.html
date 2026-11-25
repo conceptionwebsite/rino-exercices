@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Larkline Estates · Independent estate agents in Quimper</title>
+  <meta name="description" content="Larkline Estates is a small estate agency in Quimper, Brittany. One agent guides you from the first coffee to the signing at the notary. Ask for a free valuation of your home.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+<div class="page-wrap">
+
+<!-- ============ Header (over the hero) ============ -->
+<header class="site-header boxed-l pad-tb-24 flex-row flex-align-center flex-justify-between gap-24 body-on-dark">
+  <a class="logo-link" href="index.html" aria-label="Larkline Estates, home">
+    <img class="site-logo" src="images/larkline-logo-light.png" alt="Larkline Estates Quimper" width="890" height="180">
+  </a>
+  <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open the menu">
+  <label class="nav-burger heading-on-dark" for="nav-toggle" aria-hidden="true"><span class="nav-burger-lines"></span></label>
+  <nav class="nav-panel" aria-label="Main">
+    <ul class="nav-links">
+      <li><a class="nav-link heading-on-dark" href="homes.html">Homes for sale</a></li>
+      <li><a class="nav-link heading-on-dark" href="index.html#selling">Selling</a></li>
+      <li><a class="nav-link heading-on-dark" href="index.html#neighborhoods">Neighborhoods</a></li>
+      <li><a class="nav-link heading-on-dark" href="index.html#team">Team</a></li>
+      <li><a class="nav-link heading-on-dark" href="journal.html">Journal</a></li>
+    </ul>
+    <a class="btn-solid" href="index.html#valuation">Free valuation</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ 1. Hero: street-level Quimper, one action ============ -->
+<section class="hero bg-dark-1 boxed-l pad-tb-96 flex-column flex-justify-end gap-24 body-on-dark" aria-labelledby="hero-title">
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1597333511093-bc3532efa349?auto=format&fit=crop&w=2000&q=72" alt="A shopping street in the old centre of Quimper, with the cathedral spire at the end" fetchpriority="high">
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-content flex-column gap-24">
+    <p class="reveal-up"><span class="badge-2">Independent estate agents in Quimper</span></p>
+    <h1 id="hero-title" class="title-1 heading-on-dark reveal-up delay-1">Sell your Quimper home with someone who knows the street</h1>
+    <p class="body-l body-on-dark measure reveal-up delay-2">Larkline is small on purpose. One agent stays with you from the first coffee to the signing at the notary.</p>
+    <div class="flex-row flex-wrap flex-align-center gap-24 reveal-up delay-3">
+      <a class="btn-solid" href="#valuation">Plan a free valuation <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      <a class="arrow-link link-on-dark" href="homes.html">Looking to buy? See 8 homes for sale <span class="arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+  <p class="hero-caption body-s detail-on-dark">Quimper centre, a short walk from our office</p>
+</section>
+
+<!-- ============ 2. Small on purpose (office photo + numbers) ============ -->
+<section class="bg-light-1 boxed-l pad-tb-128 flex-column gap-40" aria-labelledby="about-title">
+  <div class="split-media gap-40">
+    <figure class="office-figure reveal">
+      <div class="media office-scene ratio-16-10 rounded-l">
+        <img class="office-view" src="https://images.unsplash.com/photo-1602526798976-ff581a4d66df?auto=format&fit=crop&w=1400&q=70" alt="" loading="lazy">
+        <img class="office-room" src="images/larkline-office-cutout.webp" alt="Claire Morgan's team at work in the Larkline office, with green countryside under a blue sky through the windows" loading="lazy">
+      </div>
+      <figcaption class="office-note card shadow-m pad-24 flex-column gap-8">
+        <span class="sub-title subtitle-on-light">Come in for a coffee</span>
+        <span class="body-m heading-on-light">Rue Ren&eacute;-Madec, Quimper centre</span>
+        <span class="body-s detail-on-light">Monday to Friday, 9am to 6pm</span>
+      </figcaption>
+    </figure>
+    <div class="flex-column gap-24 reveal">
+      <p class="sub-title subtitle-on-light">Small on purpose</p>
+      <h2 id="about-title" class="title-2 heading-on-light">One agent, from the first coffee to the notary</h2>
+      <p class="body-l body-on-light">Claire Morgan left a big firm because clients were passed around. At Larkline, four agents each look after their own part of town. Fewer clients, so more time for yours.</p>
+      <dl class="stats-row gap-20">
+        <div class="stat pad-tb-16 flex-column gap-8">
+          <dt class="stat-number"><span class="odometer" data-count="9" aria-hidden="true">9</span><span class="sr-only">9</span></dt>
+          <dd class="body-s detail-on-light">years selling homes in Quimper</dd>
+        </div>
+        <div class="stat pad-tb-16 flex-column gap-8">
+          <dt class="stat-number"><span class="odometer" data-count="4" aria-hidden="true">4</span><span class="sr-only">4</span></dt>
+          <dd class="body-s detail-on-light">agents, each with their own streets</dd>
+        </div>
+        <div class="stat pad-tb-16 flex-column gap-8">
+          <dt class="stat-number"><span class="odometer" data-count="1" aria-hidden="true">1</span><span class="sr-only">1</span></dt>
+          <dd class="body-s detail-on-light">agent per client, start to finish</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. How we sell (dark, sticky title) ============ -->
+<section id="selling" class="bg-dark-1 boxed-l pad-tb-128 flex-column gap-40 body-on-dark" aria-labelledby="selling-title">
+  <div class="split-title flex-align-start gap-40">
+    <div class="sticky-col flex-column gap-24">
+      <p class="sub-title subtitle-on-dark">Selling with Larkline</p>
+      <h2 id="selling-title" class="title-2 heading-on-dark">No volume game. A plan for your home.</h2>
+      <p class="body-l body-on-dark measure">The big portals show buyers hundreds of homes. We do the opposite: we help one seller at a time make good decisions.</p>
+    </div>
+    <ol class="pop-list flex-column gap-0" data-pop-list>
+      <li class="step pad-tb-32 flex-row gap-24">
+        <span class="step-number" aria-hidden="true">01</span>
+        <div class="flex-column gap-8">
+          <h3 class="title-5 heading-on-dark">A valuation visit</h3>
+          <p class="body-m body-on-dark">Your agent walks through your home, then brings back a price based on recent sales in your street, not a portal average.</p>
+        </div>
+      </li>
+      <li class="step pad-tb-32 flex-row gap-24">
+        <span class="step-number" aria-hidden="true">02</span>
+        <div class="flex-column gap-8">
+          <h3 class="title-5 heading-on-dark">A written plan for your home</h3>
+          <p class="body-m body-on-dark">Asking price, photos, the buyers we will look for and the right moment to list. You always know what happens next.</p>
+        </div>
+      </li>
+      <li class="step pad-tb-32 flex-row gap-24">
+        <span class="step-number" aria-hidden="true">03</span>
+        <div class="flex-column gap-8">
+          <h3 class="title-5 heading-on-dark">Viewings with your own agent</h3>
+          <p class="body-m body-on-dark">The person who knows your home is the one who shows it. No junior, no call centre.</p>
+        </div>
+      </li>
+      <li class="step pad-tb-32 flex-row gap-24">
+        <span class="step-number" aria-hidden="true">04</span>
+        <div class="flex-column gap-8">
+          <h3 class="title-5 heading-on-dark">All the way to the notary</h3>
+          <p class="body-m body-on-dark">We negotiate the offer, prepare the sales agreement (compromis de vente) and stay with you until the final signing.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 4. Valuation request (main conversion) ============ -->
+<section id="valuation" class="bg-light-2 pad-tb-128 flex-column gap-40" aria-labelledby="valuation-title">
+  <div class="boxed-l split-title flex-align-start gap-40">
+    <div class="flex-column gap-32">
+      <div class="flex-column gap-24">
+        <p class="sub-title subtitle-on-light">Free, with no obligation</p>
+        <h2 id="valuation-title" class="title-2 heading-on-light">What is your home worth?</h2>
+        <p class="body-l body-on-light measure">Tell us a little about your home. The agent who knows your neighborhood calls you back to plan a visit.</p>
+      </div>
+      <ul class="check-list flex-column gap-12 body-m body-on-light">
+        <li>A call back within one working day</li>
+        <li>Every request gets a reference and a named agent, so nothing gets lost</li>
+        <li>No obligation to sell with us</li>
+      </ul>
+    </div>
+
+    <form class="card shadow-l pad-32 flex-column gap-24 reveal" id="valuation-form" novalidate aria-labelledby="form-title">
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-light" id="form-step-label">Step 1 of 2 &middot; Your home</p>
+        <ol class="form-progress flex-row gap-8" aria-hidden="true">
+          <li class="is-active"></li>
+          <li></li>
+        </ol>
+        <h3 id="form-title" class="title-5 heading-on-light">Request a free valuation</h3>
+      </div>
+
+      <!-- Step 1: the home -->
+      <fieldset class="form-step fieldset-reset flex-column gap-20 pad-0" data-step="1">
+        <legend class="hidden">Your home</legend>
+        <div class="field flex-column gap-8">
+          <label class="field-label" for="f-street">Street</label>
+          <input class="input" id="f-street" name="street" type="text" autocomplete="street-address" placeholder="e.g. Rue Haute" required>
+          <p class="field-error hidden">Please tell us which street your home is on.</p>
+        </div>
+        <div class="field flex-column gap-8">
+          <label class="field-label" for="f-hood">Neighborhood</label>
+          <select class="input" id="f-hood" name="neighborhood" required>
+            <option value="">Choose a neighborhood</option>
+            <option>Centre historique</option><option>Locmaria</option><option>Quais de l&rsquo;Odet</option>
+            <option>Kerfeunteun</option><option>Providence-Saint-Mathieu</option><option>Ergu&eacute;-Armel</option>
+            <option>Quartier de la Gare</option><option>Creac&rsquo;h Gwen</option><option>Penhars</option>
+            <option>Le Moulin Vert</option><option>Le Corniguel</option><option>Coteau du Frugy</option>
+            <option>Elsewhere around Quimper</option>
+          </select>
+          <p class="field-error hidden">Please choose a neighborhood.</p>
+        </div>
+        <div class="field flex-column gap-8" role="radiogroup" aria-labelledby="f-type-label">
+          <span class="field-label" id="f-type-label">Type of home</span>
+          <div class="choice-row gap-8">
+            <label class="choice"><input type="radio" name="type" value="House" checked><span>House</span></label>
+            <label class="choice"><input type="radio" name="type" value="Apartment"><span>Apartment</span></label>
+            <label class="choice"><input type="radio" name="type" value="Loft"><span>Loft</span></label>
+          </div>
+        </div>
+        <div class="grid-2 gap-16">
+          <div class="field flex-column gap-8">
+            <label class="field-label" for="f-size">Living area (m&sup2;)</label>
+            <input class="input" id="f-size" name="size" type="number" inputmode="numeric" min="10" placeholder="e.g. 120">
+          </div>
+          <div class="field flex-column gap-8">
+            <label class="field-label" for="f-beds">Bedrooms</label>
+            <select class="input" id="f-beds" name="bedrooms">
+              <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5 or more</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn-solid" type="button" data-next>Next: your details <span class="arrow" aria-hidden="true">&rarr;</span></button>
+      </fieldset>
+
+      <!-- Step 2: the person -->
+      <fieldset class="form-step fieldset-reset flex-column gap-20 pad-0" data-step="2" hidden>
+        <legend class="hidden">Your details</legend>
+        <div class="field flex-column gap-8">
+          <label class="field-label" for="f-name">Your name</label>
+          <input class="input" id="f-name" name="name" type="text" autocomplete="name" required>
+          <p class="field-error hidden">Please tell us your name.</p>
+        </div>
+        <div class="grid-2 gap-16">
+          <div class="field flex-column gap-8">
+            <label class="field-label" for="f-phone">Phone</label>
+            <input class="input" id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="06 ..." required>
+            <p class="field-error hidden">We need a number to call you back.</p>
+          </div>
+          <div class="field flex-column gap-8">
+            <label class="field-label" for="f-email">Email</label>
+            <input class="input" id="f-email" name="email" type="email" autocomplete="email">
+          </div>
+        </div>
+        <div class="field flex-column gap-8">
+          <label class="field-label" for="f-time">Best time to call</label>
+          <select class="input" id="f-time" name="time">
+            <option>Morning</option><option>Lunchtime</option><option>Afternoon</option><option>Early evening</option>
+          </select>
+        </div>
+        <div class="flex-row flex-align-center flex-justify-between gap-16 flex-wrap">
+          <button class="button-reset arrow-link link-on-light" type="button" data-back>&larr; Back</button>
+          <button class="btn-solid" type="submit">Send my request</button>
+        </div>
+        <p class="body-s detail-on-light">We only use your details to call you about this valuation.</p>
+      </fieldset>
+    </form>
+  </div>
+
+  <div class="flex-column gap-32 pad-tb-40" data-bleed-slider>
+    <div class="boxed-l flex-row flex-wrap flex-align-end flex-justify-between gap-24">
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-light">Recently sold by Larkline</p>
+        <h3 class="title-4 heading-on-light">Sold by the agent who knew the street</h3>
+      </div>
+      <div class="flex-row gap-8">
+        <button class="icon-btn" type="button" data-prev aria-label="Previous sold home"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button class="icon-btn" type="button" data-next-slide aria-label="Next sold home"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+    <ul class="bleed-track gap-24" tabindex="0" aria-label="Recently sold homes, scroll sideways for more">
+    <li class="bleed-slide">
+      <article class="property-card card flex-column">
+        <div class="media ratio-4-3">
+          <span class="media-badge badge-3">Sold</span>
+          <img src="https://images.unsplash.com/photo-1763497291936-5429219e4c2a?auto=format&fit=crop&w=800&q=70" alt="Half-timbered houses in a lane of old Quimper" loading="lazy">
+        </div>
+        <div class="pad-24 flex-column gap-12">
+          <p class="body-s detail-on-light">Centre historique</p>
+          <h3 class="title-6 heading-on-light">Timber-Frame Loft</h3>
+          <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>2 baths</li><li>177 m&sup2;</li></ul>
+          <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;515,000</span></p>
+        </div>
+        <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+          <img class="avatar" src="https://images.unsplash.com/photo-1559687495-6ed41da2c140?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+          <p class="body-s body-on-light">Daniel Reyes</p>
+        </div>
+      </article>
+    </li>
+    <li class="bleed-slide">
+      <article class="property-card card flex-column">
+        <div class="media ratio-4-3">
+          <span class="media-badge badge-3">Sold</span>
+          <img src="https://images.unsplash.com/photo-1725034474154-b4108c93bd3b?auto=format&fit=crop&w=800&q=70" alt="Room with tall carved wooden doors" loading="lazy">
+        </div>
+        <div class="pad-24 flex-column gap-12">
+          <p class="body-s detail-on-light">Ergu&eacute;-Armel</p>
+          <h3 class="title-6 heading-on-light">Ergu&eacute;-Armel Apartment</h3>
+          <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>1 bath</li><li>102 m&sup2;</li></ul>
+          <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;239,000</span></p>
+        </div>
+        <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+          <img class="avatar" src="https://images.unsplash.com/photo-1631377307475-9acfa929b062?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+          <p class="body-s body-on-light">Priya Nair</p>
+        </div>
+      </article>
+    </li>
+    <li class="bleed-slide">
+      <article class="property-card card flex-column">
+        <div class="media ratio-4-3">
+          <span class="media-badge badge-3">Sold</span>
+          <img src="https://images.unsplash.com/photo-1657095584002-50977aaa132f?auto=format&fit=crop&w=800&q=70" alt="White stone house with grey shutters" loading="lazy">
+        </div>
+        <div class="pad-24 flex-column gap-12">
+          <p class="body-s detail-on-light">Kerfeunteun</p>
+          <h3 class="title-6 heading-on-light">Kerfeunteun Family House</h3>
+          <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>4 beds</li><li>2 baths</li><li>158 m&sup2;</li></ul>
+          <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;389,000</span></p>
+        </div>
+        <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+          <img class="avatar" src="https://images.unsplash.com/photo-1631377307475-9acfa929b062?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+          <p class="body-s body-on-light">Priya Nair</p>
+        </div>
+      </article>
+    </li>
+    <li class="bleed-slide">
+      <article class="property-card card flex-column">
+        <div class="media ratio-4-3">
+          <span class="media-badge badge-3">Sold</span>
+          <img src="https://images.unsplash.com/photo-1760371908958-139856905b14?auto=format&fit=crop&w=800&q=70" alt="House with a blue garage door and blue shutters" loading="lazy">
+        </div>
+        <div class="pad-24 flex-column gap-12">
+          <p class="body-s detail-on-light">Le Moulin Vert</p>
+          <h3 class="title-6 heading-on-light">Moulin Vert Garden House</h3>
+          <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>4 beds</li><li>2 baths</li><li>176 m&sup2;</li></ul>
+          <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;468,000</span></p>
+        </div>
+        <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+          <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+          <p class="body-s body-on-light">Sofia Lindqvist</p>
+        </div>
+      </article>
+    </li>
+    <li class="bleed-slide">
+      <article class="property-card card flex-column">
+        <div class="media ratio-4-3">
+          <span class="media-badge badge-3">Sold</span>
+          <img src="https://images.unsplash.com/photo-1598554574564-293087f3e803?auto=format&fit=crop&w=800&q=70" alt="Stone building among trees by the Odet in Quimper" loading="lazy">
+        </div>
+        <div class="pad-24 flex-column gap-12">
+          <p class="body-s detail-on-light">Quais de l&rsquo;Odet</p>
+          <h3 class="title-6 heading-on-light">Odet View Apartment</h3>
+          <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>1 bath</li><li>68 m&sup2;</li></ul>
+          <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;198,000</span></p>
+        </div>
+        <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+          <img class="avatar" src="https://images.unsplash.com/photo-1559687495-6ed41da2c140?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+          <p class="body-s body-on-light">Daniel Reyes</p>
+        </div>
+      </article>
+    </li>
+    <li class="bleed-slide">
+      <article class="property-card card flex-column">
+        <div class="media ratio-4-3">
+          <span class="media-badge badge-3">Sold</span>
+          <img src="https://images.unsplash.com/photo-1459159104669-bdbee375caa7?auto=format&fit=crop&w=800&q=70" alt="Old house with painted shutters" loading="lazy">
+        </div>
+        <div class="pad-24 flex-column gap-12">
+          <p class="body-s detail-on-light">Penhars</p>
+          <h3 class="title-6 heading-on-light">Penhars Family House</h3>
+          <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>4 beds</li><li>2 baths</li><li>141 m&sup2;</li></ul>
+          <p class="flex-row flex-align-center gap-8"><span class="body-s detail-on-light">Sold for</span><span class="price">&euro;312,000</span></p>
+        </div>
+        <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+          <img class="avatar" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=120&q=70&h=120&crop=faces" alt="" loading="lazy">
+          <p class="body-s body-on-light">Marcus Bell</p>
+        </div>
+      </article>
+    </li>
+    </ul>
+    <p class="boxed-l body-s detail-on-light">Sale prices are fictional, for the prototype.</p>
+  </div>
+</section>
+
+<!-- ============ 5. Homes for sale ============ -->
+<section id="homes" class="bg-light-1 boxed-l pad-tb-128 flex-column gap-40" aria-labelledby="homes-title">
+  <div class="split-title gap-40 flex-align-end">
+    <div class="flex-column gap-24">
+      <p class="sub-title subtitle-on-light">Homes for sale</p>
+      <h2 id="homes-title" class="title-2 heading-on-light">Find a home, then call its agent</h2>
+    </div>
+    <p class="body-l body-on-light measure">Every home belongs to one agent. Their number is on the listing, so you get an answer now, not another form.</p>
+  </div>
+
+  <div class="card-row-3 gap-24">
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Locmaria</span>
+        <img src="https://images.unsplash.com/photo-1662379940109-1026a0dcfe95?auto=format&fit=crop&w=800&q=70" alt="Loft with exposed beams, a library wall and a ladder" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Cobblestone Loft</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>3 beds</li><li>2 baths</li><li>195 m&sup2;</li></ul>
+        <p class="price">&euro;565,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1559687495-6ed41da2c140?auto=format&fit=crop&w=120&h=120&crop=faces&q=70" alt="" loading="lazy">
+        <p class="body-s body-on-light">Daniel Reyes</p>
+      </div>
+    </a>
+
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Kerfeunteun</span>
+        <img src="https://images.unsplash.com/photo-1627847643419-47612038d2b7?auto=format&fit=crop&w=800&q=70" alt="Granite house with blue shutters and flowering climbers" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Granite Classic</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>3 beds</li><li>2 baths</li><li>172 m&sup2;</li></ul>
+        <p class="price">&euro;425,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1631377307475-9acfa929b062?auto=format&fit=crop&w=120&h=120&crop=faces&q=70" alt="" loading="lazy">
+        <p class="body-s body-on-light">Priya Nair</p>
+      </div>
+    </a>
+
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Le Moulin Vert</span>
+        <img src="https://images.unsplash.com/photo-1567590997573-a0cfe69ee335?auto=format&fit=crop&w=800&q=70" alt="Stone townhouse with a slate roof behind a green garden" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Moulin Vert Townhouse</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>4 beds</li><li>4 baths</li><li>297 m&sup2;</li></ul>
+        <p class="price">&euro;895,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&h=120&crop=faces&q=70" alt="" loading="lazy">
+        <p class="body-s body-on-light">Sofia Lindqvist</p>
+      </div>
+    </a>
+
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Quartier de la Gare</span>
+        <img src="https://images.unsplash.com/photo-1713832139688-79676097edde?auto=format&fit=crop&w=800&q=70" alt="Bright living room with tall windows" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Station Quarter Residence</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>2 baths</li><li>116 m&sup2;</li></ul>
+        <p class="price">&euro;279,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=120&h=120&crop=faces&q=70" alt="" loading="lazy">
+        <p class="body-s body-on-light">Marcus Bell</p>
+      </div>
+    </a>
+
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Le Corniguel</span>
+        <img src="https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?auto=format&fit=crop&w=800&q=70" alt="Open-plan loft with wooden floors and steel beams" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Old Port Loft</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>2 beds</li><li>2 baths</li><li>144 m&sup2;</li></ul>
+        <p class="price">&euro;385,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&h=120&crop=faces&q=70" alt="" loading="lazy">
+        <p class="body-s body-on-light">Sofia Lindqvist</p>
+      </div>
+    </a>
+
+    <a class="property-card card flex-column" href="property-cobblestone-loft.html">
+      <div class="media ratio-4-3">
+        <span class="media-badge badge-2">Penhars</span>
+        <img src="https://images.unsplash.com/photo-1542321204-23959c19158b?auto=format&fit=crop&w=800&q=70" alt="Large granite house with a slate roof and a lawn" loading="lazy">
+      </div>
+      <div class="pad-24 flex-column gap-12">
+        <h3 class="title-6 heading-on-light">Penhars Granite House</h3>
+        <ul class="facts flex-row flex-wrap gap-12 body-s detail-on-light"><li>5 beds</li><li>3 baths</li><li>334 m&sup2;</li></ul>
+        <p class="price">&euro;595,000</p>
+      </div>
+      <div class="agent-chip pad-lr-24 pad-tb-16 flex-row flex-align-center gap-12">
+        <img class="avatar" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=120&h=120&crop=faces&q=70" alt="" loading="lazy">
+        <p class="body-s body-on-light">Marcus Bell</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="flex-row flex-justify-center">
+    <a class="btn-outline" href="homes.html">See all 8 homes for sale <span class="arrow" aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
+
+<!-- ============ 6. Neighborhood guide (CSS tabs) ============ -->
+<section id="neighborhoods" class="bg-light-2 boxed-l pad-tb-128 flex-column gap-40" aria-labelledby="hood-title">
+  <div class="flex-column gap-24">
+    <p class="sub-title subtitle-on-light">Neighborhood guide</p>
+    <h2 id="hood-title" class="title-2 heading-on-light">Not sure where to live? Start with the street</h2>
+  </div>
+
+  <div class="tabs" data-hood-tabs>
+    <input class="tab-input" type="radio" name="hood" id="hood-1" checked>
+    <input class="tab-input" type="radio" name="hood" id="hood-2">
+    <input class="tab-input" type="radio" name="hood" id="hood-3">
+    <input class="tab-input" type="radio" name="hood" id="hood-4">
+    <div class="tab-layout gap-40">
+      <div class="flex-column flex-align-start gap-20">
+      <ul class="tab-list full" role="list">
+        <li><label class="tab-label pad-tb-16" for="hood-1">Centre historique <small>Daniel</small></label></li>
+        <li><label class="tab-label pad-tb-16" for="hood-2">Locmaria <small>Daniel</small></label></li>
+        <li><label class="tab-label pad-tb-16" for="hood-3">Kerfeunteun <small>Priya</small></label></li>
+        <li><label class="tab-label pad-tb-16" for="hood-4">Le Moulin Vert <small>Sofia</small></label></li>
+      </ul>
+      <button class="icon-btn hood-pause" type="button" data-hood-pause aria-pressed="false" aria-label="Pause the neighborhood slideshow"><svg class="icon icon-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><svg class="icon icon-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+      </div>
+
+      <article class="tab-panel panel-1 panel-grid gap-32">
+        <div class="media ratio-4-5 rounded-l"><img src="https://images.unsplash.com/photo-1598442739724-b2525da8475c?auto=format&fit=crop&w=900&q=70" alt="Half-timbered house and a stone tower in old Quimper" loading="lazy"></div>
+        <div class="flex-column gap-20">
+          <h3 class="title-4 heading-on-light">Centre historique</h3>
+          <p class="body-m body-on-light">Timber-framed houses, Rue K&eacute;r&eacute;on and the cathedral at the end of almost every street. Apartments above the shops and a few rare lofts. You will not need a car.</p>
+          <dl class="flex-column gap-0 body-s">
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Good for</dt><dd class="heading-on-light">Walking everywhere</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Typical homes</dt><dd class="heading-on-light">Apartments, lofts</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Your local agent</dt><dd class="heading-on-light">Daniel Reyes</dd></div>
+          </dl>
+          <a class="arrow-link link-on-light" href="homes.html">Homes in the centre <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+      </article>
+
+      <article class="tab-panel panel-2 panel-grid gap-32">
+        <div class="media ratio-4-5 rounded-l"><img src="https://images.unsplash.com/photo-1597233662421-3ff5359b9086?auto=format&fit=crop&w=900&q=70" alt="Trees along the river Odet in Quimper" loading="lazy"></div>
+        <div class="flex-column gap-20">
+          <h3 class="title-4 heading-on-light">Locmaria</h3>
+          <p class="body-m body-on-light">Where Quimper began. Faience workshops on Place B&eacute;rardier, the towpath along the Odet and the steps up Mont Frugy, ten minutes on foot from the cathedral.</p>
+          <dl class="flex-column gap-0 body-s">
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Good for</dt><dd class="heading-on-light">River walks, character</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Typical homes</dt><dd class="heading-on-light">Lofts, townhouses</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Your local agent</dt><dd class="heading-on-light">Daniel Reyes</dd></div>
+          </dl>
+          <a class="arrow-link link-on-light" href="property-cobblestone-loft.html">See the Cobblestone Loft <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+      </article>
+
+      <article class="tab-panel panel-3 panel-grid gap-32">
+        <div class="media ratio-4-5 rounded-l"><img src="https://images.unsplash.com/photo-1766675713705-c1843f20ce5d?auto=format&fit=crop&w=900&q=70" alt="Stone cottage among trees" loading="lazy"></div>
+        <div class="flex-column gap-20">
+          <h3 class="title-4 heading-on-light">Kerfeunteun</h3>
+          <p class="body-m body-on-light">North of the centre, with family houses and gardens, schools and local shops. One of the most popular parts of town for families moving to Quimper.</p>
+          <dl class="flex-column gap-0 body-s">
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Good for</dt><dd class="heading-on-light">Families, gardens</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Typical homes</dt><dd class="heading-on-light">Houses</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Your local agent</dt><dd class="heading-on-light">Priya Nair</dd></div>
+          </dl>
+          <a class="arrow-link link-on-light" href="homes.html">Homes in Kerfeunteun <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+      </article>
+
+      <article class="tab-panel panel-4 panel-grid gap-32">
+        <div class="media ratio-4-5 rounded-l"><img src="https://images.unsplash.com/photo-1687689961021-7b4690dffab6?auto=format&fit=crop&w=900&q=70" alt="Stone house covered in flowering climbers" loading="lazy"></div>
+        <div class="flex-column gap-20">
+          <h3 class="title-4 heading-on-light">Le Moulin Vert</h3>
+          <p class="body-m body-on-light">Leafy residential streets west of the centre, with larger houses and gardens. Quiet, yet close enough to cycle into town.</p>
+          <dl class="flex-column gap-0 body-s">
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Good for</dt><dd class="heading-on-light">Space, quiet streets</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Typical homes</dt><dd class="heading-on-light">Townhouses, houses</dd></div>
+            <div class="key-value pad-tb-12 flex-row flex-justify-between gap-16"><dt class="detail-on-light">Your local agent</dt><dd class="heading-on-light">Sofia Lindqvist</dd></div>
+          </dl>
+          <a class="arrow-link link-on-light" href="homes.html">Homes in the Moulin Vert <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. Team ============ -->
+<section id="team" class="bg-light-1 boxed-l pad-tb-128 flex-column gap-40" aria-labelledby="team-title">
+  <div class="split-title gap-40 flex-align-end">
+    <div class="flex-column gap-24">
+      <p class="sub-title subtitle-on-light">Our team</p>
+      <h2 id="team-title" class="title-2 heading-on-light">The people you will actually talk to</h2>
+    </div>
+    <p class="body-l body-on-light measure">Claire Morgan runs the agency. Each of our four agents knows their own corner of Quimper, street by street.</p>
+  </div>
+
+  <ul class="team-accordion gap-16" data-team-accordion>
+    <li class="team-panel is-open" data-team-panel>
+      <img class="team-photo" src="https://images.unsplash.com/photo-1559687495-6ed41da2c140?auto=format&fit=crop&w=900&q=70&h=1100&crop=faces" alt="Portrait of Daniel Reyes" loading="lazy">
+      <div class="team-top pad-20 flex-row flex-align-center flex-justify-between gap-12">
+        <p class="team-label heading-on-dark">01 / Centre &amp; Locmaria</p>
+        <button class="team-toggle" type="button" aria-expanded="true" aria-controls="team-body-1" aria-label="Show Daniel Reyes"></button>
+      </div>
+      <div class="team-bottom pad-24 flex-column gap-16">
+        <h3 class="team-name heading-on-dark">Daniel.</h3>
+        <div class="team-body flex-column gap-16" id="team-body-1">
+          <p class="body-s detail-on-dark">Daniel Reyes &middot; Senior agent &middot; Centre historique, Locmaria, Quais de l&rsquo;Odet</p>
+          <p class="body-m body-on-dark">Daniel lives a few streets from the cathedral. Ask him about timber-framed houses, lofts by the Odet and what they really sell for.</p>
+          <div class="flex-row flex-wrap flex-align-center gap-12">
+            <a class="btn-solid" href="https://wa.me/33639980111">WhatsApp Daniel <span class="arrow" aria-hidden="true">&nearr;</span></a>
+            <a class="contact-pill heading-on-dark" href="tel:+33261910101"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>02 61 91 01 01</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="team-panel" data-team-panel>
+      <img class="team-photo" src="https://images.unsplash.com/photo-1631377307475-9acfa929b062?auto=format&fit=crop&w=900&q=70&h=1100&crop=faces" alt="Portrait of Priya Nair" loading="lazy">
+      <div class="team-top pad-20 flex-row flex-align-center flex-justify-between gap-12">
+        <p class="team-label heading-on-dark">02 / Kerfeunteun &amp; Ergu&eacute;-Armel</p>
+        <button class="team-toggle" type="button" aria-expanded="false" aria-controls="team-body-2" aria-label="Show Priya Nair"></button>
+      </div>
+      <div class="team-bottom pad-24 flex-column gap-16">
+        <h3 class="team-name heading-on-dark">Priya.</h3>
+        <div class="team-body flex-column gap-16" id="team-body-2">
+          <p class="body-s detail-on-dark">Priya Nair &middot; Senior agent &middot; Kerfeunteun, Providence-Saint-Mathieu, Ergu&eacute;-Armel</p>
+          <p class="body-m body-on-dark">Priya helps families find a house with a garden north and east of the centre, and knows these streets school by school.</p>
+          <div class="flex-row flex-wrap flex-align-center gap-12">
+            <a class="btn-solid" href="https://wa.me/33639980112">WhatsApp Priya <span class="arrow" aria-hidden="true">&nearr;</span></a>
+            <a class="contact-pill heading-on-dark" href="tel:+33261910102"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>02 61 91 01 02</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="team-panel" data-team-panel>
+      <img class="team-photo" src="https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?auto=format&fit=crop&w=900&q=70&h=1100&crop=faces" alt="Portrait of Marcus Bell" loading="lazy">
+      <div class="team-top pad-20 flex-row flex-align-center flex-justify-between gap-12">
+        <p class="team-label heading-on-dark">03 / Gare &amp; Penhars</p>
+        <button class="team-toggle" type="button" aria-expanded="false" aria-controls="team-body-3" aria-label="Show Marcus Bell"></button>
+      </div>
+      <div class="team-bottom pad-24 flex-column gap-16">
+        <h3 class="team-name heading-on-dark">Marcus.</h3>
+        <div class="team-body flex-column gap-16" id="team-body-3">
+          <p class="body-s detail-on-dark">Marcus Bell &middot; Agent &middot; Quartier de la Gare, Creac&rsquo;h Gwen, Penhars</p>
+          <p class="body-m body-on-dark">Marcus covers the station quarter, the new-builds of Creac&rsquo;h Gwen and the big granite family houses of Penhars.</p>
+          <div class="flex-row flex-wrap flex-align-center gap-12">
+            <a class="btn-solid" href="https://wa.me/33639980113">WhatsApp Marcus <span class="arrow" aria-hidden="true">&nearr;</span></a>
+            <a class="contact-pill heading-on-dark" href="tel:+33261910103"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>02 61 91 01 03</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="team-panel" data-team-panel>
+      <img class="team-photo" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=70&h=1100&crop=faces" alt="Portrait of Sofia Lindqvist" loading="lazy">
+      <div class="team-top pad-20 flex-row flex-align-center flex-justify-between gap-12">
+        <p class="team-label heading-on-dark">04 / Moulin Vert &amp; Frugy</p>
+        <button class="team-toggle" type="button" aria-expanded="false" aria-controls="team-body-4" aria-label="Show Sofia Lindqvist"></button>
+      </div>
+      <div class="team-bottom pad-24 flex-column gap-16">
+        <h3 class="team-name heading-on-dark">Sofia.</h3>
+        <div class="team-body flex-column gap-16" id="team-body-4">
+          <p class="body-s detail-on-dark">Sofia Lindqvist &middot; Agent &middot; Le Moulin Vert, Le Corniguel, Coteau du Frugy</p>
+          <p class="body-m body-on-dark">Sofia knows the quiet streets of the Moulin Vert and the lofts down by the old port, and sells every home with patience.</p>
+          <div class="flex-row flex-wrap flex-align-center gap-12">
+            <a class="btn-solid" href="https://wa.me/33639980114">WhatsApp Sofia <span class="arrow" aria-hidden="true">&nearr;</span></a>
+            <a class="contact-pill heading-on-dark" href="tel:+33261910104"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>02 61 91 01 04</a>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <p class="body-s detail-on-light">Agent descriptions are sample text, to be checked by Claire.</p>
+</section>
+
+<!-- ============ 8. Claire's words (dark) ============ -->
+<section class="shader-section bg-dark-1 boxed-l pad-tb-128 flex-column gap-40 body-on-dark" aria-label="A word from Claire Morgan" data-shader>
+  <canvas class="shader-canvas" aria-hidden="true"></canvas>
+  <div class="split-media gap-40">
+    <figure class="flex-column gap-24 reveal">
+      <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+      <blockquote class="quote-text heading-on-dark">We know the streets, and we help people make a decision. That is how we work.</blockquote>
+      <figcaption class="flex-column gap-4">
+        <span class="body-m heading-on-dark">Claire Morgan</span>
+        <span class="body-s detail-on-dark">Founder and managing director</span>
+      </figcaption>
+    </figure>
+    <div class="media ratio-4-3 rounded-l reveal">
+      <img src="https://images.unsplash.com/photo-1756966055376-910955018bee?auto=format&fit=crop&w=1200&q=70" alt="Stone footbridge over the Odet in front of the prefecture in Quimper" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. Journal (bleed slider) ============ -->
+<section id="journal" class="bg-light-1 pad-tb-128 flex-column gap-40" aria-labelledby="journal-title" data-bleed-slider>
+  <div class="boxed-l flex-row flex-wrap flex-align-end flex-justify-between gap-24">
+    <div class="flex-column gap-24">
+      <p class="sub-title subtitle-on-light">Journal</p>
+      <h2 id="journal-title" class="title-2 heading-on-light">Notes from the street</h2>
+    </div>
+    <div class="flex-row flex-wrap flex-align-center gap-24">
+      <a class="arrow-link link-on-light" href="journal.html">All articles <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      <div class="flex-row gap-8">
+        <button class="icon-btn" type="button" data-prev aria-label="Previous article"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button class="icon-btn" type="button" data-next-slide aria-label="Next article"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <ul class="bleed-track gap-32" tabindex="0" aria-label="Journal articles, scroll sideways for more">
+    <li class="bleed-slide">
+      <a class="article-card flex-column gap-16" href="journal-locmaria-or-moulin-vert.html">
+        <div class="media ratio-3-2 rounded-m"><img src="https://images.unsplash.com/photo-1598280377722-9dbb9b2c759f?auto=format&fit=crop&w=800&q=70" alt="Bridge over the river Odet in Quimper" loading="lazy"></div>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="badge-1">Neighborhoods</span><span class="body-s detail-on-light">Daniel Reyes &amp; Sofia Lindqvist</span></p>
+        <h3 class="title-6 heading-on-light">Locmaria or the Moulin Vert: how to choose your neighborhood</h3>
+      </a>
+    </li>
+    <li class="bleed-slide">
+      <a class="article-card flex-column gap-16" href="journal-locmaria-or-moulin-vert.html">
+        <div class="media ratio-3-2 rounded-m"><img src="https://images.unsplash.com/photo-1694887869218-47a9d34b14fd?auto=format&fit=crop&w=800&q=70" alt="Granite townhouses around a small square in Quimper" loading="lazy"></div>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="badge-1">Buying</span><span class="body-s detail-on-light">Priya Nair</span></p>
+        <h3 class="title-6 heading-on-light">What to know before buying your first home in Quimper</h3>
+      </a>
+    </li>
+    <li class="bleed-slide">
+      <a class="article-card flex-column gap-16" href="journal-locmaria-or-moulin-vert.html">
+        <div class="media ratio-3-2 rounded-m"><img src="https://images.unsplash.com/photo-1727270921836-3d51d25d9e33?auto=format&fit=crop&w=800&q=70" alt="Attic bedroom with wooden beams and a fireplace" loading="lazy"></div>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="badge-1">Selling</span><span class="body-s detail-on-light">Claire Morgan</span></p>
+        <h3 class="title-6 heading-on-light">Five things that influence the value of your home</h3>
+      </a>
+    </li>
+    <li class="bleed-slide">
+      <a class="article-card flex-column gap-16" href="journal-locmaria-or-moulin-vert.html">
+        <div class="media ratio-3-2 rounded-m"><img src="https://images.unsplash.com/photo-1598442739724-b2525da8475c?auto=format&fit=crop&w=800&q=70" alt="Half-timbered house and a stone tower in old Quimper" loading="lazy"></div>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="badge-1">Neighborhoods</span><span class="body-s detail-on-light">Daniel Reyes</span></p>
+        <h3 class="title-6 heading-on-light">Neighborhood guide: the Centre historique</h3>
+      </a>
+    </li>
+    <li class="bleed-slide">
+      <a class="article-card flex-column gap-16" href="journal-locmaria-or-moulin-vert.html">
+        <div class="media ratio-3-2 rounded-m"><img src="https://images.unsplash.com/photo-1766675713705-c1843f20ce5d?auto=format&fit=crop&w=800&q=70" alt="Stone cottage among trees" loading="lazy"></div>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="badge-1">Neighborhoods</span><span class="body-s detail-on-light">Priya Nair</span></p>
+        <h3 class="title-6 heading-on-light">Neighborhood guide: Kerfeunteun</h3>
+      </a>
+    </li>
+    <li class="bleed-slide">
+      <a class="article-card flex-column gap-16" href="journal-locmaria-or-moulin-vert.html">
+        <div class="media ratio-3-2 rounded-m"><img src="https://images.unsplash.com/photo-1687689961021-7b4690dffab6?auto=format&fit=crop&w=800&q=70" alt="Stone house covered in flowering climbers" loading="lazy"></div>
+        <p class="flex-row flex-wrap flex-align-center gap-12"><span class="badge-1">Neighborhoods</span><span class="body-s detail-on-light">Sofia Lindqvist</span></p>
+        <h3 class="title-6 heading-on-light">Neighborhood guide: Le Moulin Vert</h3>
+      </a>
+    </li>
+  </ul>
+</section>
+
+<!-- ============ 10. Closing call to action ============ -->
+<section class="photo-band bg-dark-1 boxed-l pad-tb-160 flex-column flex-align-start gap-24 text-start body-on-dark" aria-labelledby="cta-title">
+  <div class="band-media band-media-people"><img src="images/larkline-selling-band.jpg" alt="" loading="lazy"></div>
+  <p class="sub-title subtitle-on-dark">Thinking of selling?</p>
+  <h2 id="cta-title" class="title-2 heading-on-dark measure">Start with a coffee and an honest price</h2>
+  <p class="body-l body-on-dark measure">Tell us about your home. Your local agent calls you back within one working day.</p>
+  <a class="btn-solid" href="#valuation">Plan a free valuation <span class="arrow" aria-hidden="true">&rarr;</span></a>
+</section>
+
+</main>
+
+</div>
+
+<!-- ============ Footer ============ -->
+<footer class="curtain-footer bg-dark-1 boxed-l pad-tb-80 body-on-dark" data-curtain-footer>
+  <div class="curtain-inner flex-column gap-40">
+    <div class="footer-grid gap-40">
+      <div class="flex-column gap-20">
+        <img class="site-logo" src="images/larkline-logo-light.png" alt="Larkline Estates Quimper" width="890" height="180" loading="lazy">
+        <p class="body-s body-on-dark measure">A small, independent estate agency in Quimper. Sales only, one agent per client.</p>
+      </div>
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-dark">Office</p>
+        <p class="body-s body-on-dark">Rue Ren&eacute;-Madec<br>29000 Quimper, Finist&egrave;re<br>Monday to Friday, 9am to 6pm</p>
+      </div>
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-dark">Contact</p>
+        <ul class="footer-links flex-column gap-8 body-s">
+          <li><a class="plain-link heading-on-dark" href="tel:+33261910100">02 61 91 01 00</a></li>
+          <li><a class="plain-link heading-on-dark" href="mailto:hello@larkline.example">hello@larkline.example</a></li>
+        </ul>
+      </div>
+      <div class="flex-column gap-12">
+        <p class="sub-title subtitle-on-dark">Explore</p>
+        <ul class="footer-links flex-column gap-8 body-s">
+          <li><a class="plain-link heading-on-dark" href="homes.html">Homes for sale</a></li>
+          <li><a class="plain-link heading-on-dark" href="index.html#valuation">Free valuation</a></li>
+          <li><a class="plain-link heading-on-dark" href="index.html#neighborhoods">Neighborhoods</a></li>
+          <li><a class="plain-link heading-on-dark" href="index.html#team">Team</a></li>
+          <li><a class="plain-link heading-on-dark" href="journal.html">Journal</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom pad-tb-24 flex-row flex-wrap flex-justify-between gap-16 body-s detail-on-dark">
+      <p>&copy; 2026 Larkline Estates &middot; Professional licence (carte T) no. to be added</p>
+      <p><a class="plain-link detail-on-dark" href="legal-notice.html">Legal notice</a> &middot; <a class="plain-link detail-on-dark" href="privacy.html">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
